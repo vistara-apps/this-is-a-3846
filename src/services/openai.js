@@ -284,7 +284,7 @@ export const FALLBACK_CONTENT = {
         "I wasn't doing anything wrong",
         "Why did you pull me over?",
         "This is harassment",
-        "I know my rights" (confrontational tone)
+        "I know my rights" // avoid confrontational tone
       ]
     }
   }

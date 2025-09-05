@@ -252,9 +252,9 @@ export const COMPREHENSIVE_LEGAL_DATA = {
         "I wasn't doing anything wrong",
         "Why did you pull me over?",
         "This is harassment",
-        "I know my rights" (in confrontational tone),
+        "I know my rights", // avoid confrontational tone
         "You can't do this",
-        Any admission of guilt or wrongdoing
+        "Any admission of guilt or wrongdoing"
       ]
     },
     
@@ -276,7 +276,7 @@ export const COMPREHENSIVE_LEGAL_DATA = {
         "Come in",
         "Look around",
         "I have nothing to hide",
-        Any incriminating statements,
+        "Any incriminating statements",
         "Sure, go ahead"
       ]
     }
@@ -301,7 +301,7 @@ export const COMPREHENSIVE_LEGAL_DATA = {
         "I was just...",
         "I didn't know...",
         "Can't you just give me a warning?",
-        Any explanation of your actions,
+        "Any explanation of your actions",
         "I was in a hurry"
       ]
     }
@@ -326,7 +326,7 @@ export const COMPREHENSIVE_LEGAL_DATA = {
         "I was only going...",
         "Everyone else was speeding too",
         "I'm late for...",
-        Any justification for your driving,
+        "Any justification for your driving",
         "Can I just pay the fine now?"
       ]
     }
@@ -351,7 +351,7 @@ export const COMPREHENSIVE_LEGAL_DATA = {
         "I was just trying to...",
         "I didn't see the sign",
         "My GPS told me to...",
-        Any admission of traffic violations,
+        "Any admission of traffic violations",
         "I was following traffic"
       ]
     }
@@ -376,8 +376,8 @@ export const COMPREHENSIVE_LEGAL_DATA = {
       dontSay: [
         "I wasn't doing anything wrong",
         "Why did you stop me?",
-        Any admission of wrongdoing,
-        "I know my rights" (confrontationally),
+        "Any admission of wrongdoing",
+        "I know my rights", // avoid confrontational tone
         "This is unfair"
       ]
     }
